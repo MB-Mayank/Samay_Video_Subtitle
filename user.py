@@ -4,7 +4,9 @@ import os
 import subprocess
 
 # Set FastAPI endpoint
-FASTAPI_ENDPOINT = "http://127.0.0.1:8000/upload-video"  # Replace with your FastAPI server URL
+FASTAPI_ENDPOINT = "https://samay-video-subtitle.onrender.com/upload-video"
+
+
 
 # Helper function to merge video and subtitles
 def merge_video_with_subtitles(video_path, subtitles_path, output_path):
